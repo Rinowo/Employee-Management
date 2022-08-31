@@ -8,5 +8,6 @@ namespace Employee
 {
     internal interface IRole
     {
+        string[] GetRole(string role);
     }
 }

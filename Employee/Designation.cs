@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    internal class Designation
+    internal enum Designation
     {
+        CEO = 1,
+        President = 2,
+        SoftwareEngineer = 3,
+        TraineeEngineer = 4,
+        ProjectManager = 5,
+        SystemEngineer = 6,
+        WebDeveloper = 7,
+        QualityAnalyst = 8
     }
 }
